@@ -1,3 +1,5 @@
+package com.misc;
+
 public class BinarySearch {
     public static int search(int arr[], int low, int high, int searchElement) {
         if (high >= low) {

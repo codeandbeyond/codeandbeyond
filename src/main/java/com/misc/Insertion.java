@@ -1,3 +1,5 @@
+package com.misc;
+
 public class Insertion {
 
     public static void sort(Integer[] array) {

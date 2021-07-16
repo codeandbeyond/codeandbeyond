@@ -1081,7 +1081,7 @@ public class RedBlackBST_ESTest extends RedBlackBST_ESTest_scaffolding {
       
       } catch(NoSuchElementException e) {
          //
-         // BST underflow
+         // com.misc.BST underflow
          //
          verifyException("com.optum.fs.rest.service.util.RedBlackBST", e);
       }
@@ -1124,7 +1124,7 @@ public class RedBlackBST_ESTest extends RedBlackBST_ESTest_scaffolding {
       
       } catch(NoSuchElementException e) {
          //
-         // BST underflow
+         // com.misc.BST underflow
          //
          verifyException("com.optum.fs.rest.service.util.RedBlackBST", e);
       }

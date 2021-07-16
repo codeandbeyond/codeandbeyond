@@ -46,7 +46,7 @@ public class BinarySearch_ESTest extends BinarySearch_ESTest_scaffolding {
          //
          // no message in exception (getMessage() returned null)
          //
-         verifyException("BinarySearch", e);
+         verifyException("com.misc.BinarySearch", e);
       }
   }
 
@@ -62,7 +62,7 @@ public class BinarySearch_ESTest extends BinarySearch_ESTest_scaffolding {
          //
          // -1440
          //
-         verifyException("BinarySearch", e);
+         verifyException("com.misc.BinarySearch", e);
       }
   }
 

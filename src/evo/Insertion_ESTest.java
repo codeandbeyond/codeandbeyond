@@ -88,7 +88,7 @@ public class Insertion_ESTest extends Insertion_ESTest_scaffolding {
          //
          // no message in exception (getMessage() returned null)
          //
-         verifyException("Insertion", e);
+         verifyException("com.misc.Insertion", e);
       }
   }
 
@@ -168,7 +168,7 @@ public class Insertion_ESTest extends Insertion_ESTest_scaffolding {
          //
          // 0
          //
-         verifyException("Insertion", e);
+         verifyException("com.misc.Insertion", e);
       }
   }
 

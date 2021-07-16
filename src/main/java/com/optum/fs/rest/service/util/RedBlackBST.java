@@ -9,9 +9,9 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
     private static final boolean RED   = true;
     private static final boolean BLACK = false;
 
-    private Node root;     // root of the BST
+    private Node root;     // root of the com.misc.BST
 
-    // BST helper node data type
+    // com.misc.BST helper node data type
     private class Node {
         private Key key;           // key
         private Value val;         // associated data
@@ -67,7 +67,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
 
 
     /***************************************************************************
-     *  Standard BST search.
+     *  Standard com.misc.BST search.
      ***************************************************************************/
 
     /**
@@ -157,7 +157,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMin() {
-        if (isEmpty()) throw new NoSuchElementException("BST underflow");
+        if (isEmpty()) throw new NoSuchElementException("com.misc.BST underflow");
 
         // if both children of root are black, set root to red
         if (!isRed(root.left) && !isRed(root.right))
@@ -186,7 +186,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMax() {
-        if (isEmpty()) throw new NoSuchElementException("BST underflow");
+        if (isEmpty()) throw new NoSuchElementException("com.misc.BST underflow");
 
         // if both children of root are black, set root to red
         if (!isRed(root.left) && !isRed(root.right))
@@ -349,8 +349,8 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
      ***************************************************************************/
 
     /**
-     * Returns the height of the BST (for debugging).
-     * @return the height of the BST (a 1-node tree has height 0)
+     * Returns the height of the com.misc.BST (for debugging).
+     * @return the height of the com.misc.BST (a 1-node tree has height 0)
      */
     public int height() {
         return height(root);
@@ -583,7 +583,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
         return isBST(root, null, null);
     }
 
-    // is the tree rooted at x a BST with all keys strictly between min and max
+    // is the tree rooted at x a com.misc.BST with all keys strictly between min and max
     // (if min or max is null, treat as empty constraint)
     // Credit: Bob Dondero's elegant solution
     private boolean isBST(Node x, Key min, Key max) {

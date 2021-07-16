@@ -26,7 +26,7 @@ public class KeyIndexedSorting_ESTest_scaffolding {
 
   @BeforeClass 
   public static void initEvoSuiteFramework() { 
-    org.evosuite.runtime.RuntimeSettings.className = "KeyIndexedSorting"; 
+    org.evosuite.runtime.RuntimeSettings.className = "com.misc.KeyIndexedSorting";
     org.evosuite.runtime.GuiSupport.initialize(); 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
@@ -84,8 +84,8 @@ public class KeyIndexedSorting_ESTest_scaffolding {
 
   private static void initializeClasses() {
     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(KeyIndexedSorting_ESTest_scaffolding.class.getClassLoader() ,
-      "KeyIndexedSorting",
-      "Student"
+      "com.misc.KeyIndexedSorting",
+      "com.misc.Student"
     );
   } 
 
@@ -93,8 +93,8 @@ public class KeyIndexedSorting_ESTest_scaffolding {
     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(KeyIndexedSorting_ESTest_scaffolding.class.getClassLoader()); 
 
     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
-      "KeyIndexedSorting",
-      "Student"
+      "com.misc.KeyIndexedSorting",
+      "com.misc.Student"
     );
   }
 }

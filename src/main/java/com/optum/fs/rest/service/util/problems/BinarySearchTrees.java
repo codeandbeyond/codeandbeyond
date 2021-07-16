@@ -8,9 +8,9 @@ public class BinarySearchTrees<Object extends Comparable<Object>, Value> {
     private static final boolean RED = true;
     private static final boolean BLACK = false;
 
-    private Node root;     // root of the BST
+    private Node root;     // root of the com.misc.BST
 
-    // BST helper node data type
+    // com.misc.BST helper node data type
     private class Node {
         private Object key;           // key
         private Value val;         // associated
@@ -114,7 +114,7 @@ public class BinarySearchTrees<Object extends Comparable<Object>, Value> {
 
 
     public void deleteMin() {
-        if (isEmpty()) throw new NoSuchElementException("BST underflow");
+        if (isEmpty()) throw new NoSuchElementException("com.misc.BST underflow");
 
         // if both children of root are black, set root to red
         if (!isRed(root.left) && !isRed(root.right))
@@ -139,7 +139,7 @@ public class BinarySearchTrees<Object extends Comparable<Object>, Value> {
 
 
     public void deleteMax() {
-        if (isEmpty()) throw new NoSuchElementException("BST underflow");
+        if (isEmpty()) throw new NoSuchElementException("com.misc.BST underflow");
 
         // if both children of root are black, set root to red
         if (!isRed(root.left) && !isRed(root.right))
@@ -443,7 +443,7 @@ public class BinarySearchTrees<Object extends Comparable<Object>, Value> {
         return isBST(root, null, null);
     }
 
-    // is the tree rooted at x a BST with all keys strictly between min and max
+    // is the tree rooted at x a com.misc.BST with all keys strictly between min and max
     // (if min or max is null, treat as empty constraint)
     // Credit: Bob Dondero's elegant solution
     private boolean isBST(Node x, Object min, Object max) {

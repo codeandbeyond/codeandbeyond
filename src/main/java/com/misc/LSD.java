@@ -1,3 +1,5 @@
+package com.misc;
+
 public class LSD {
     public static void sort(String[] a, int W) {  // Sort a[] on leading W characters.
         int N = a.length;

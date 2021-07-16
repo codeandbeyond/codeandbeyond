@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sample",
+            "request": "launch",
+            "mainClass": "com.misc.Sample",
+            "projectName": "TestJava"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeIntervals",
             "request": "launch",
             "mainClass": "com.optum.fs.rest.service.util.leetcode.MergeIntervals",

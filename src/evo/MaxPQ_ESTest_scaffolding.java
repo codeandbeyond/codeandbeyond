@@ -27,7 +27,7 @@ public class MaxPQ_ESTest_scaffolding {
 
   @BeforeClass 
   public static void initEvoSuiteFramework() { 
-    org.evosuite.runtime.RuntimeSettings.className = "MaxPQ"; 
+    org.evosuite.runtime.RuntimeSettings.className = "com.misc.MaxPQ";
     org.evosuite.runtime.GuiSupport.initialize(); 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
@@ -86,8 +86,8 @@ public class MaxPQ_ESTest_scaffolding {
 
   private static void initializeClasses() {
     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(MaxPQ_ESTest_scaffolding.class.getClassLoader() ,
-      "MaxPQ$HeapIterator",
-      "MaxPQ"
+      "com.misc.MaxPQ$HeapIterator",
+      "com.misc.MaxPQ"
     );
   } 
   private static void initMocksToAvoidTimeoutsInTheTests() throws ClassNotFoundException { 
@@ -99,8 +99,8 @@ public class MaxPQ_ESTest_scaffolding {
     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(MaxPQ_ESTest_scaffolding.class.getClassLoader()); 
 
     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
-      "MaxPQ",
-      "MaxPQ$HeapIterator"
+      "com.misc.MaxPQ",
+      "com.misc.MaxPQ$HeapIterator"
     );
   }
 }

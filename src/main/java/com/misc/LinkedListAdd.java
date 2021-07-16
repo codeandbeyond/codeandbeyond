@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+package com.misc;
 
 class Node{
     int val;

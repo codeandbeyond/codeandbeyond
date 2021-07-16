@@ -71,7 +71,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.metho
 2019-11-21 17:26:12,011 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
 2019-11-21 17:26:12,012 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.1.1/libexec/bin/proxyserver.jks
 2019-11-21 17:26:12,156 INFO o.a.j.s.FileServer: Default base='/Users/apatra9/Downloads/TestJava'
-2019-11-21 17:26:12,433 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-11-21 17:26:12,433 INFO o.a.j.s.SampleResult: Note: com.misc.Sample TimeStamps are START times
 2019-11-21 17:26:12,433 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
 2019-11-21 17:26:12,433 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
 2019-11-21 17:26:12,433 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000

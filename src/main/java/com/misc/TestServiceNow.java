@@ -1,4 +1,4 @@
-import junit.framework.TestSuite;
+package com.misc;
 
 public class TestServiceNow {
     public static void main(String[] args) {

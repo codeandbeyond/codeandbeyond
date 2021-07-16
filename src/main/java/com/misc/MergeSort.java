@@ -1,3 +1,5 @@
+package com.misc;
+
 class MergeSort {
 
 

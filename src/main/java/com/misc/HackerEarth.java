@@ -1,3 +1,5 @@
+package com.misc;
+
 public class HackerEarth {
     static {
         code(2);

@@ -1,3 +1,5 @@
+package com.misc;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

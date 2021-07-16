@@ -1,3 +1,5 @@
+package com.misc;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 

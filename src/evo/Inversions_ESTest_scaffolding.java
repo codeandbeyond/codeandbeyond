@@ -26,7 +26,7 @@ public class Inversions_ESTest_scaffolding {
 
   @BeforeClass 
   public static void initEvoSuiteFramework() { 
-    org.evosuite.runtime.RuntimeSettings.className = "Inversions"; 
+    org.evosuite.runtime.RuntimeSettings.className = "com.misc.Inversions";
     org.evosuite.runtime.GuiSupport.initialize(); 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
@@ -84,7 +84,7 @@ public class Inversions_ESTest_scaffolding {
 
   private static void initializeClasses() {
     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(Inversions_ESTest_scaffolding.class.getClassLoader() ,
-      "Inversions"
+      "com.misc.Inversions"
     );
   } 
 
@@ -92,7 +92,7 @@ public class Inversions_ESTest_scaffolding {
     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(Inversions_ESTest_scaffolding.class.getClassLoader()); 
 
     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
-      "Inversions"
+      "com.misc.Inversions"
     );
   }
 }
