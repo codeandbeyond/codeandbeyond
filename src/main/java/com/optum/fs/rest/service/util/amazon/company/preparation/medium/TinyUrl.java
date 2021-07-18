@@ -18,17 +18,18 @@ public class TinyUrl {
         }
         String key = sb.toString();
         index.put(key,url);
-        reverseIndex.put(key,url);
+        reverseIndex.put(url,key);
         return BASE_HOST+key;
     }
     public String decode(String shortUrl) {
-        return reverseIndex.get(shortUrl.replace(BASE_HOST,""));
+        return index.get(shortUrl.replace(BASE_HOST,""));
     }
 
     public static void main(String[] args) {
         TinyUrl tinyUrl = new TinyUrl();
         String key = tinyUrl.encode("www.facebook.com");
         System.out.println(key);
+        System.out.println(tinyUrl.encode("www.facebook.com"));
         System.out.println(tinyUrl.decode(key));
     }
 }
