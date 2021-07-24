@@ -1,0 +1,6 @@
+"(((gender = male | gender = female)+(cause = swelling))+(age>20))"
+"(((gender = Male | gender = Female)+(cause = fracture))+(dob>21/06/1990)+(part=ha*)+(age>20))"
+"(((gender = Male | gender = Female)+(cause = fracture))+(dob>21/06/1990)+(part=ha*)+(age>17))"
+"(((gender = Male | gender = Female)+(cause = fracture))+(dob>21/06/1990)+(part=ha*))"
+"(dob>21/06/1990)"
+
