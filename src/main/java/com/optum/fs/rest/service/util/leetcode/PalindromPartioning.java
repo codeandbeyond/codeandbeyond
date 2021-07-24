@@ -1,14 +1,18 @@
 package com.optum.fs.rest.service.util.leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PalindromPartioning {
     public static void main(String[] args) {
-        String str = "ababbbabbababa";
+        String str = "aab";
         PalindromPartioning palindromPartioning = new PalindromPartioning();
         System.out.println(palindromPartioning.partition(str));
 
     }
 
     public int partition(String s) {
+        List<List<String>> result = new ArrayList();
         int n = s.length();
 
         int[][] cut = new int[n][n];
@@ -37,6 +41,19 @@ public class PalindromPartioning {
                     }
                 }
             }
+        }
+        for (int i = 0; i < palindrome.length; i++) {
+            List<String> list = new ArrayList<>();
+            for (int j = 0; j < palindrome[0].length; j++) {
+                if (palindrome[i][j]) {
+                    list.add(s.substring(i, j + 1));
+                }
+            }
+            System.out.println();
+            result.add(list);
+        }
+        for(List<String> list:result){
+            System.out.println(list);
         }
         return cut[0][n - 1];
     }
