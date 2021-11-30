@@ -1,3 +1,0 @@
-terraform/src/level-2-lambda.tf
-terraform/src/level-2-stepfunction.tf
-commWorkflowLambda.zip
