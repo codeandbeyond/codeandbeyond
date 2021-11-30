@@ -1,0 +1,60 @@
+https://www.geeksforgeeks.org/submatrix-sum-queries/
+https://www.geeksforgeeks.org/pairwise-swap-elements-of-a-given-linked-list-by-changing-links/
+https://www.geeksforgeeks.org/tarjan-algorithm-find-strongly-connected-components/
+
+Greedy Algorithms | Set 5 (Prim’s Minimum Spanning Tree (MST))
+SegmentTree
+N-ary tree
+Max/Min Heaps
+Amazon experience Problems
+Microsoft Interview Problems
+
+System Design Problems
+
+
+
+Adding tags to photos, searching photos on tags, commenting on photos, tagging users to photos, who to follow, etc.
+Spam Filter design
+
+Design a system like one which facebook has, where you get live feeds from your friend. 
+
+
+
+For Odd size : floor( (n-3)/4 )+2 gives the position.
+
+For Even size : floor( (n-2)/4 )+1 gives the position.
+
+
+. Practice Trees , Linked lists , DP , Arrays , Strings , Stacks , Queue , Hashing , Heaps , Backtracking and basic Graph questions from gfg. The questions are asked as it is.
+
+Behavioural 
+
+1. He gave his brief introduction and then asked mine. 
+
+2. Why do you want to leave the current company
+
+3. Why Amazon?
+
+4. The most challenging project/thing ever done. Why it was challenging . How would u do the same project/thing again. i need to tell some improvements in previous approach/design/code.
+
+5. Tell me a situation when your manager disagreed with you / or had a different opinion
+
+6. Tell me a situation when there was a time constraint for project delivery and how you handled it.
+
+7.Project discussion in detail. Most challenging problem, how did you solve it, had any disagreement with manager, how did you fix it etc.
+
+8.Engineering Manager round, all behavioral, why do you want to leave the company, one challenging problem, how did you overcome it, your biggest failure etc. etc.
+
+Design Restaurant booking application HLD and LLD. Write an algorithm to optimally assign tables for bookings.
+Do integration for Splitwise app with Amazon Pay (or Paytm)
+1) where a person can pay to another person and money directly gets deposited into other person’s bank account.
+2) A person can also send reminder to another person for owning money.
+
+Detailed discussion on project and design of it, how will you scale your project to support n number of users. Focus was on scalability & distributed design.
+Design a job scheduler, scalability, fault tolerance, high availability, how scheduler picks up job,
+how will you take care where one job can run for 30 min and one for 30 hour, how will you distribute jobs on servers.
+Based on frequency & time how will you execute them ?
+How will you notify back the user about start/stop or completion of a job ?
+How will your system know if a job is killed / terminated due to unknown reasons ?
+
+Design a vending machine with following functionalities
